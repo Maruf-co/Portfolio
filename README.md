@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio for my GamDev friend Anna Kopeikina
+Portfolio for my GameDev friend Anna Kopeikina

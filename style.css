@@ -1,0 +1,105 @@
+html {
+    background: linear-gradient(to bottom right, #0BAB64, #3BB78F);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+body {
+    color: #fff8e7;
+    font-family: 'Silkscreen', cursive;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #0BAB64;   
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    padding: 0 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+.navItem {
+    font-size: 20px;
+    padding: 1rem;
+}
+.navItem:hover {
+    background-color: #3BB78F;
+}
+
+.author {
+    font-size: 22px;
+}
+
+.continer, #about, #projects, #contacts {
+    margin: 0 auto;
+    max-width: 50em;
+} 
+
+.titleWithImage {
+    display: flex;
+    align-items: center;
+}
+
+.authorImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.divideLine {
+    margin: 10em 0; 
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 96px 48px 96px 0;
+}
+
+.descrBlock {
+    padding-right: 25px;
+}
+
+.gif {
+    border: 10px solid #e4dac2;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+
+.contacts {
+    display: flex;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.contactIcon {
+    width: 50px;
+    height: 50px;
+}
