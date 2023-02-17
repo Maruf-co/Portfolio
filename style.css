@@ -51,10 +51,32 @@ ul {
     font-size: 22px;
 }
 
-.continer, #about, #projects, #contacts {
+.continer, #about, #projects, #contacts, #jokes {
     margin: 0 auto;
     max-width: 50em;
-} 
+}
+
+.jokeButton {
+    color: #000;
+    font-family: inherit;
+    font-size: 16px;
+    /* border: none; */
+    border-radius: 5px;
+
+    background-color: #fff8e7;
+
+    width: 140px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.jokeButton:hover {
+    filter: brightness(0.9);
+}
+
+.jokeText {
+    margin: 20px;
+    height: 125px
+}
 
 .titleWithImage {
     display: flex;
