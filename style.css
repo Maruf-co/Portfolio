@@ -60,22 +60,36 @@ ul {
     color: #000;
     font-family: inherit;
     font-size: 16px;
-    /* border: none; */
     border-radius: 5px;
 
     background-color: #fff8e7;
 
     width: 140px;
     padding: 10px 15px;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 .jokeButton:hover {
     filter: brightness(0.9);
 }
 
-.jokeText {
-    margin: 20px;
-    height: 125px
+.jokeBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.jokeTitle {
+    text-align: center;
+}
+
+.jokeImage {
+    margin: 0 auto;
+}
+.jokeImage[src="/"] {
+    display: none;
+}
+
+.jokeDate {
+    text-align: right;
 }
 
 .titleWithImage {
