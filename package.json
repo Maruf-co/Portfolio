@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for my GameDev friend Anna Kopeikina",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js",
+    "validate": "html-validator --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maruf-co/Portfolio.git"
+  },
+  "author": "Maruf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maruf-co/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Maruf-co/Portfolio#readme",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "lodash": "^4.17.21",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.17.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "w3c-html-validator": "^1.3.2"
+  }
+}

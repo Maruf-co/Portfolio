@@ -56,22 +56,6 @@ ul {
     max-width: 50em;
 }
 
-.jokeButton {
-    color: #000;
-    font-family: inherit;
-    font-size: 16px;
-    border-radius: 5px;
-
-    background-color: #fff8e7;
-
-    width: 140px;
-    padding: 10px 15px;
-    margin: 20px auto;
-}
-.jokeButton:hover {
-    filter: brightness(0.9);
-}
-
 .jokeBody {
     display: flex;
     flex-direction: column;
